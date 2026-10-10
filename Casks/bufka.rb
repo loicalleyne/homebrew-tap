@@ -4,21 +4,21 @@ cask "bufka" do
 
   on_macos do
     on_arm do
-      sha256 "1eba7a44db0077e7a89265ccb6ee59dfa48fb8df79568b2fe48b88cab70ec0aa"
+      sha256 "06bc6d3539b64a39da982fa9bfdb8dc986c2a014018f5ef3e04ee34092a59977"
       url "https://github.com/loicalleyne/bufka/releases/download/v#{version}/bufka_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "013de8a39affc61c5f24ae94540b0848fdf8d1e701fe864d9ad11afb5b478a42"
+      sha256 "b6f6aa0b19bc9f4470ee955d52ef53de621f89007a6dd77a04e829ca02c1a715"
       url "https://github.com/loicalleyne/bufka/releases/download/v#{version}/bufka_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "5d653bc9faaecc79424b039df3bf0564da52bb275529a8eb4f91ac378523f8df"
+      sha256 "7e306b249b415b71fc827af6e6c019d1f8c86b7a8e7a5487b78631868e098a14"
       url "https://github.com/loicalleyne/bufka/releases/download/v#{version}/bufka_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6231957e93310a45c795ee82860f05f596cb63f2ed734190b25705bad53fe5ac"
+      sha256 "01268e105d6db1e8c48d71862dde21a9583821721057adf6c022838acca01a4e"
       url "https://github.com/loicalleyne/bufka/releases/download/v#{version}/bufka_#{version}_linux_amd64.tar.gz"
     end
   end
